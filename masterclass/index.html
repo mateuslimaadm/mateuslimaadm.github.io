@@ -1,0 +1,279 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty — Identity — Expression</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:'Montserrat', sans-serif;
+    overflow-x:hidden;
+}
+
+/* HERO COM VÍDEO */
+
+.hero{
+    position:relative;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+}
+
+.subtitle{
+    letter-spacing:6px;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-family:'Playfair Display', serif;
+    font-size:70px;
+    letter-spacing:3px;
+    margin-bottom:20px;
+    line-height:1.1;
+}
+
+.hero h2{
+    font-family:'Playfair Display', serif;
+    font-size:30px;
+    letter-spacing:3px;
+    margin-bottom:40px;
+    line-height:1.1;
+}
+
+.btn{
+    text-decoration:none;
+    border-bottom:1px solid #fff;
+    padding-bottom:6px;
+    letter-spacing:3px;
+    color:#fff;
+    transition:0.3s;
+}
+
+.btn:hover{
+    opacity:0.6;
+}
+
+/* SEÇÕES */
+
+section{
+    padding:160px 14%;
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 1s ease;
+}
+
+section.visible{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.editorial{
+    max-width:750px;
+    margin:auto;
+    text-align:center;
+}
+
+.editorial h2{
+    font-family:'Playfair Display', serif;
+    font-size:44px;
+    margin-bottom:40px;
+    letter-spacing:3px;
+}
+
+.editorial p{
+    font-size:18px;
+    line-height:1.9;
+    font-weight:300;
+}
+
+.divider{
+    width:40px;
+    height:1px;
+    background:#fff;
+    margin:60px auto;
+}
+
+.valor{
+    font-family:'Playfair Display', serif;
+    font-size:60px;
+    margin:30px 0;
+}
+
+/* WHATSAPP FIXO */
+
+.whatsapp{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    background:#fff;
+    color:#000;
+    padding:18px 28px;
+    text-decoration:none;
+    font-size:12px;
+    letter-spacing:3px;
+    transition:0.3s;
+}
+
+.whatsapp:hover{
+    opacity:0.7;
+}
+
+footer{
+    padding:100px;
+    text-align:center;
+    font-size:12px;
+    letter-spacing:4px;
+}
+
+.footer-social{
+    margin-top:25px;
+    font-size:10px;
+    letter-spacing:4px;
+}
+
+.footer-social a{
+    color:#fff;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-social a:hover{
+    opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <video autoplay muted loop playsinline>
+        <source src="https://res.cloudinary.com/djeok6lyy/video/upload/v1771617998/WhatsApp_Video_2026-02-20_at_17.04.45_wyzyrf.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+        <div class="subtitle">MASTERCLASS</div>
+        <h1>MATHEUS MATARAZO</h1>
+        <h2>BEAUTY — IDENTITY — EXPRESSION</h2>
+        <a href="https://wa.me/5531975436563?text=Olá,%20quero%20garantir%20minha%20vaga%20na%20Masterclass%20Beauty%20—%20Identity%20—Expression." 
+           class="btn" target="_blank">
+           GARANTIR MINHA VAGA
+        </a>
+    </div>
+</div>
+
+<section>
+    <div class="editorial">
+        <h2>Não é sobre MECHAS.<br>É sobre IDENTIDADE.</h2>
+        <div class="divider"></div>
+        <p>
+            O MORENO ILUMINADO de alto padrão exige leitura estética,
+            profundidade e arquitetura de luz.
+            Nesta imersão exclusiva você aprenderá técnica sem abertura de fundo;
+            técnica com abertura de fundo e a construção da identidade através da cor.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="editorial">
+        <h2>O que você vai dominar</h2>
+        <div class="divider"></div>
+        <p>
+            • Técnica de moreno iluminado sem abertura de fundo<br><br>
+            • Técnica de moreno iluminado com abertura de fundo<br><br>
+            • Arquitetura estratégica de luz e profundidade<br><br>
+            • Construção da identidade através da cor<br><br>
+            • Posicionamento premium através da técnica
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="editorial">
+        <h2>Imersão Presencial</h2>
+        <div class="divider"></div>
+        <p>
+            Local: Ipatinga — MG<br>
+            Endereço completo enviado após confirmação da inscrição.<br><br>
+            Vagas extremamente limitadas para garantir excelência técnica e acompanhamento individual.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="editorial">
+        <h2>Investimento</h2>
+        <div class="divider"></div>
+        <div class="valor">R$ 2.500,00</div>
+        <p>
+            Reserva: R$ 1.000,00 reais<br>
+            Saldo: R$ 1.500,00 reais (até 3x no cartão)
+        </p>
+    </div>
+</section>
+
+<footer>
+    MATHEUS MATARAZO — BEAUTY • EXPRESSION • IDENTITY © 2026
+    <div class="footer-social">
+        <a href="https://www.instagram.com/matheusmatarazo" target="_blank">INSTAGRAM</a>
+        <span>•</span>
+        <a href="https://www.tiktok.com/@matheusmatarazo" target="_blank">TIKTOK</a>
+    </div>
+</footer>
+
+<a href="https://wa.me/5531975436563?text=Olá,%20quero%20mais%20informações%20sobre%20a%20Masterclass." 
+   class="whatsapp" target="_blank">
+   WHATSAPP
+</a>
+
+<script>
+const sections = document.querySelectorAll("section");
+
+const reveal = () => {
+    sections.forEach(section => {
+        const top = section.getBoundingClientRect().top;
+        const trigger = window.innerHeight * 0.85;
+        if(top < trigger){
+            section.classList.add("visible");
+        }
+    });
+};
+
+window.addEventListener("scroll", reveal);
+reveal();
+</script>
+
+</body>
+</html>
